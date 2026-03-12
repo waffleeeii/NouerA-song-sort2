@@ -1,23 +1,20 @@
-/**
- * @typedef {{name: string, key: string, tooltip?: string, checked?: boolean, sub?: {name: string, tooltip?: string, checked?: string}[]}[]} Options
- * @typedef {{name: string, img: string, opts: Object<string, boolean|number[]}[]} CharData
-*/
-
-/**
- * Data set. Characters will be removed from the sorting array based on selected options, working down the array.
- * 
- * @type {Object.<string, {options: Options, characterData: CharData}>}
-*/
-const dataSet = {};
-
-/** 
- * Data set version, in YYYY-MM-DD form.
- * 
- * @example '2018-02-20'
-*/
-let dataSetVersion = '';
-
-/**
- * Image root, will be appended to the start of every image URL.
- */
-const imageRoot = 'https://tohosort.frelia.my/src/assets/chars/';
+// songs to sort
+export const songs = [
+{ name:"POP IT LIKE" },
+   { name:"Silhouette" },
+   { name:"A-LIST" },
+   { name:"We Are Young" },
+   { name:"N.I.N(New is Now)" },
+   { name:"Sparkle" },
+   { name:"무한대(mu)" },
+   { name:"Pairing" },
+   { name:"Jet Stream" },
+   { name:"Bring the Crunk" },
+   { name:"BNB(Beauty and the Beast)" },
+   { name:"FINALE" },
+   { name:"WARNING!" },
+   { name:"MAKE YOU MOVE" },
+   { name:"n(number of cases)" },
+   { name:"MYSELF" }
+  ];
+export default songs;
